@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>webpack and yandex maps</title>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=16c5fe00-5a58-4dc6-bde3-c4c0ac1bbf10&lang=ru_RU" type="text/javascript"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -20,7 +21,10 @@
         </header>
         <main class="mt-5">
             <div class="container">
-
+                <div id="map"></div>
+                <div class="mt-3">
+                    <button type="button" class="btn btn-primary change-map">Поменять карту</button>
+                </div>
             </div>
         </main>
     </div>
