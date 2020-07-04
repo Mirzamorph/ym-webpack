@@ -1,0 +1,1 @@
+Just a simple project to practice webpack config and yandex maps api
