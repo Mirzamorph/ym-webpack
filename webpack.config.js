@@ -12,9 +12,7 @@ module.exports = (env, argv) => {
     devtool: isDev && 'source-map',
     devServer: {
       contentBase: './dist',
-      hot: true,
-      clientLogLevel: 'silent',
-      overlay: true
+      clientLogLevel: 'silent'
     },
     resolve: {
       extensions: ['.js', '.json'],
